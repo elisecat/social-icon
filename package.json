@@ -1,0 +1,22 @@
+{
+  "name": "social-icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "social-icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisecat/social-icon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisecat/social-icon/issues"
+  },
+  "homepage": "https://github.com/elisecat/social-icon#readme",
+  "dependencies": {
+    "lit-element": "^4.0.1"
+  }
+}
