@@ -4,7 +4,8 @@
   "description": "",
   "main": "cat-social-icon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "es-dev-server --app-index index.html --node-resolve --watch --open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/elisecat/social-icon#readme",
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@webcomponents/webcomponentsjs": "^2.8.0",
     "lit-element": "^4.0.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.1.0"
   }
 }
